@@ -76,5 +76,11 @@ namespace SharpFont
 		/// use the <see cref="PixelMode.VerticalLcd"/> mode.
 		/// </summary>
 		VerticalLcd,
+
+		/// <summary>
+		/// Render as a signed distance field (SDF) bitmap (8 bits per pixel).
+		/// Requires FreeType 2.10 or higher.
+		/// </summary>
+		Sdf,
 	}
 }
